@@ -1,0 +1,131 @@
+$date
+  Mon Jan 24 11:44:46 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb $end
+$var integer 32 ! e1 $end
+$var integer 32 " e2 $end
+$var integer 32 # e3 $end
+$var integer 32 $ e4 $end
+$var integer 32 % s $end
+$scope module m $end
+$var integer 32 & e1 $end
+$var integer 32 ' e2 $end
+$var integer 32 ( e3 $end
+$var integer 32 ) e4 $end
+$var integer 32 * s $end
+$var integer 32 + s1 $end
+$var integer 32 , s2 $end
+$scope module exmax0 $end
+$var integer 32 - e1 $end
+$var integer 32 . e2 $end
+$var integer 32 / s $end
+$upscope $end
+$scope module exmax1 $end
+$var integer 32 0 e1 $end
+$var integer 32 1 e2 $end
+$var integer 32 2 s $end
+$upscope $end
+$scope module exmax2 $end
+$var integer 32 3 e1 $end
+$var integer 32 4 e2 $end
+$var integer 32 5 s $end
+$upscope $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1010 !
+b101 "
+b10100 #
+b100011 $
+b100011 %
+b1010 &
+b101 '
+b10100 (
+b100011 )
+b100011 *
+b1010 +
+b10100 ,
+b1010 -
+b101 .
+b1010 /
+b10100 0
+b1010 1
+b10100 2
+b10100 3
+b100011 4
+b100011 5
+#10000000
+b1000 !
+b110010 "
+b1010 #
+b10 $
+b110010 %
+b1000 &
+b110010 '
+b1010 (
+b10 )
+b110010 *
+b110010 +
+b110010 ,
+b1000 -
+b110010 .
+b110010 /
+b1010 0
+b110010 1
+b110010 2
+b110010 3
+b10 4
+b110010 5
+#20000000
+b100000 !
+b10100 "
+b111 $
+b100000 %
+b100000 &
+b10100 '
+b111 )
+b100000 *
+b100000 +
+b100000 ,
+b100000 -
+b10100 .
+b100000 /
+b100000 1
+b100000 2
+b100000 3
+b111 4
+b100000 5
+#30000000
+b1100010 !
+b11 "
+b11011 #
+b11010 $
+b1100010 %
+b1100010 &
+b11 '
+b11011 (
+b11010 )
+b1100010 *
+b1100010 +
+b1100010 ,
+b1100010 -
+b11 .
+b1100010 /
+b11011 0
+b1100010 1
+b1100010 2
+b1100010 3
+b11010 4
+b1100010 5
+#40000000

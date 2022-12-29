@@ -1,0 +1,67 @@
+$date
+  Mon Jan 24 11:02:26 2022
+$end
+$version
+  GHDL v0
+$end
+$timescale
+  1 fs
+$end
+$scope module standard $end
+$upscope $end
+$scope module std_logic_1164 $end
+$upscope $end
+$scope module tb $end
+$var integer 32 ! e1 $end
+$var integer 32 " e2 $end
+$var integer 32 # s $end
+$scope module e $end
+$var integer 32 $ e1 $end
+$var integer 32 % e2 $end
+$var integer 32 & s $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+#0
+b1010 !
+b101 "
+b1010 #
+b1010 $
+b101 %
+b1010 &
+#10000000
+b100 !
+b1000 "
+b1000 #
+b100 $
+b1000 %
+b1000 &
+#20000000
+b1110 !
+b110 "
+b1110 #
+b1110 $
+b110 %
+b1110 &
+#30000000
+b1111 !
+b11 "
+b1111 #
+b1111 $
+b11 %
+b1111 &
+#40000000
+b1 !
+b101 "
+b101 #
+b1 $
+b101 %
+b101 &
+#50000000
+b11001 !
+b11 "
+b11001 #
+b11001 $
+b11 %
+b11001 &
+#60000000

@@ -1,0 +1,7 @@
+v 4
+file . "tb.vhd" "b2e13ad9cefe7838a69dd55ec51c2627e94f61a7" "20220124153621.848":
+  entity tb at 1( 0) + 0 on 67;
+  architecture seq of tb at 8( 96) + 0 on 68;
+file . "CDCNT.vhd" "d990aeee0b9dda32c05488b39556e9885654876b" "20220124153621.823":
+  entity cdcnt at 1( 0) + 0 on 65;
+  architecture behavior of cdcnt at 17( 259) + 0 on 66;
